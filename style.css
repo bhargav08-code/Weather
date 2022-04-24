@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  background: linear-gradient(to right, #757f9a, #d7dde8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.box {
+  background: #757f9a;
+  padding: 2rem;
+  border-radius: 30px;
+  width: 16.5rem;
+  margin: 1rem;
+  color: #fff;
+  border: 5px solid #d7dde8;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  margin: 0.5rem;
+  border-radius: 50%;
+  border: none;
+  height: 46px;
+  width: 46px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+input.bar {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  color: #000;
+  font-size: 120%;
+}
+button:hover {
+  background: #757f9a;
+}
