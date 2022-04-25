@@ -26,7 +26,7 @@ body {
 }
 button {
   margin: 0.5rem;
-  border-radius: 20%;
+  border-radius: 30%;
   border: none;
   height: 46px;
   width: 46px;
@@ -44,4 +44,7 @@ input.bar {
 }
 button:hover {
   background: #757f9a;
+}
+.weather {
+  text-align: center;
 }
